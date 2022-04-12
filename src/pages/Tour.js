@@ -33,7 +33,7 @@ const Tour = () => {
             </Box>
             <Box marginBottom={10}>
             <Link to='/'><Typography variant="body2" component="p" >
-                    Back to Home
+                    Back to Home | View other tours
             </Typography></Link>
             </Box>
             <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
