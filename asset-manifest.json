@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mui-demo/static/css/main.3cef3660.css",
+    "main.js": "/mui-demo/static/js/main.e5cc973d.js",
+    "index.html": "/mui-demo/index.html",
+    "main.3cef3660.css.map": "/mui-demo/static/css/main.3cef3660.css.map",
+    "main.e5cc973d.js.map": "/mui-demo/static/js/main.e5cc973d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cef3660.css",
+    "static/js/main.e5cc973d.js"
+  ]
+}
