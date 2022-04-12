@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import { AccessTime } from '@mui/icons-material';
 import Rating from '@mui/material/Rating';
 import { createTheme, ThemeProvider } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 
 const theme = createTheme({
@@ -32,16 +33,19 @@ const theme = createTheme({
     }
 })
 
-const TourCard = ({tour}) => {
-    const {name,price,image,duration,rating, numberOfReviews} = tour;
+const TourCard = ({ tour }) => {
+    const { name, price, image, duration, rating, numberOfReviews, id } = tour;
     return (
         <Grid item xs={3}>
             <ThemeProvider theme={theme}>
                 <Paper elevation={3} >
-                    <img
+                    <Link to={`/id=${id}`}><img
                         src={image}
                         alt={name} className="img" />
+                    </Link>
                     <Box paddingX={1}>
+
+
 
                         <Typography variant="subtitle1" component="h2">
                             {name}

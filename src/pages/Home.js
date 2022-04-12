@@ -10,9 +10,9 @@ const Home = () => {
     <div className="App">
 
       <Container sx={{ marginY: 5 }}>
-        {cities.map(city => (
+        {cities.map((city,i) => (
           <>
-            <Typography variant='h4' component='h2' marginTop={5} marginBottom={3} >
+            <Typography variant='h4' component='h2' marginTop={5} marginBottom={3} key={i} >
               Top {city.name} Tours
             </Typography>
             <Grid container spacing={5}>
