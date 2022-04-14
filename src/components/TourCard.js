@@ -39,9 +39,9 @@ const TourCard = ({ tour }) => {
         <Grid item xs={3}>
             <ThemeProvider theme={theme}>
                 <Paper elevation={3} >
-                    <Link to={`/id=${id}`}><img
-                        src={image}
-                        alt={name} className="img" />
+                    {/* <Link to={`/id=${id}`}> */}
+                    <Link to={`/tour`}>
+                        <img src={image} alt={name} className="img" />
                     </Link>
                     <Box paddingX={1}>
 
